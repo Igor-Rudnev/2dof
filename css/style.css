@@ -44,7 +44,17 @@ div.scrollup:hover {
   background-color: #000; /* цвет заднего фона при наведении */
 }
 
-
+.block-one{
+  padding-bottom: 35px;
+  border-bottom: #ff5733 1px solid;
+  padding-top: 20px;
+}
+.block-two{
+  padding-top: 70px;
+}
+h2{
+  margin-bottom: -3rem!important;
+}
 .border-2 {
   border-width: 2px; }
 
@@ -90,8 +100,15 @@ div.scrollup:hover {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 .attention{
+  margin-top: 20px;
   padding: 20px 0;
   text-align: center;
+  background-color: #ff5733;
+  border-radius: 15px;
+}
+.atten{
+  margin-top: -20px;
+  margin-bottom: 20px;
 }
 .site-section{
   padding-top: 50px;
@@ -177,6 +194,12 @@ div.scrollup:hover {
 .img-pref{
   width: 450px;
   height: 450px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.img-prevew{
+  width: 450px;
+  height: 250px;
   border-radius: 20px;
   object-fit: cover;
 }
