@@ -25,20 +25,40 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-
+.component-center{
+  text-align: center;
+}
+@media (max-width:767px) {
+  .img-pref {
+    height: 250px;
+    width: 450px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .img-prevew{
+    height: 200px;
+    width: 340px;
+    object-position: left;
+  }
+  .img-rad{
+    border-radius: 15px;
+  }
+}
 div.scrollup {
   position: fixed; /* фиксированная позиция */
   color: #fff; /* цвет текста */
   background-color: #ff5733; /* цвет заднего фона */
   right: 40px; /* расстояние от правого края */
-  bottom: 40px; /* расстояние от нижнего края */
+  bottom: 25px; /* расстояние от нижнего края */
   padding: 4px 10px; /* отступы до содержимого блока */
   font-size: 20px; /* размер шрифта (иконки) */
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
   border-top-left-radius: 4px; /* скругление верхнего левого угла */
   border-top-right-radius: 4px; /* скругление верхнего правого угла */
   cursor: pointer; /* форма курсора */
   display: none; /* не отображать элемент */
   text-align: center; /*выравнивание содержимого элемента по центру */
+  z-index: 99;
 }
 div.scrollup:hover {
   background-color: #000; /* цвет заднего фона при наведении */
@@ -150,7 +170,7 @@ h2{
     position: absolute;
     width: 100px;
     height: 2px; }
-
+  
 .site-footer {
   padding: 4em 0;
   background: #1b1d24; }
@@ -197,12 +217,12 @@ h2{
   border-radius: 20px;
   object-fit: cover;
 }
+  
 .img-prevew{
-  width: 450px;
   height: 250px;
-  border-radius: 20px;
-  object-fit: cover;
+  object-position: left;
 }
+
 @media (max-width: 991.98px) {
   .img-md-fluid {
     max-width: 100%; }
