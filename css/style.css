@@ -61,6 +61,9 @@ h1, h2, h3, h4, h5,
   .component-center img{
     margin-bottom: 5px;
   }
+  .orange-title{
+    color: #ff5733;
+  }
 }
 div.scrollup {
   position: fixed; /* фиксированная позиция */
