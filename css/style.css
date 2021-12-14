@@ -164,6 +164,9 @@ iframe{
 .videos{
   text-align: center;
 }
+.counter{
+  text-align: center;
+}
   @media (min-width: 768px) {
   .site-section.site-section-sm {
     padding: 4em 0; }
